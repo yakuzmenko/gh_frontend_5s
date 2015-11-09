@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Неправильное использование colspan</title>
+		<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<table border="1" width="100%" cellpadding="10" cellspacing="0">
+			<caption valign="bottom">Table Heading</caption>
+			<thead>
+				<tr>
+					<th>Heading #1</th>
+					<th>Heading #2</th>
+					<th>Heading #3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">Ячейка 1</td>
+					<td>Ячейка 2</td>
+					<td>Ячейка 2.1</td>
+				</tr>
+				<tr> 
+					<td>Ячейка 4</td>
+					<td>Ячейка 4.1</td>
+				</tr>
+				<tr> 
+					<td>Ячейка 3.1</td>
+					<td>Ячейка 4.2</td>
+					<td>Ячейка 4.3</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="2">Total</th>
+					<th>1000$</th>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
