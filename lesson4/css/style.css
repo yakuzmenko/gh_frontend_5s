@@ -1,0 +1,48 @@
+.wrapper-form {
+	width: 500px;
+	margin: 30px auto;
+}
+
+h1 {
+	font: bold 30px/60px Arial;
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+fieldset.first-fieldset {
+	border-color: red;
+}
+
+form ul li {
+	padding-bottom: 15px;
+}
+
+form fieldset:nth-child(2) ul li {
+	padding-bottom: 10px;
+}
+
+fieldset ul li:nth-child(3n) {
+	background-color: grey;
+}
+
+fieldset ul li:hover {
+	background-color: red;
+}
+
+fieldset ul li input:focus {
+	border-width: 5px;
+}
+
+fieldset.first-fieldset ul li {
+	float: left;
+	padding-right: 10px;
+}
+
+span {
+	font-weight: bold;
+	display: block;
+}
+

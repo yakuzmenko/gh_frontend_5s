@@ -1,3 +1,36 @@
+.wrapper {
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.examples-nav {
+    width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.examples-nav li {
+    float: left;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+.examples-nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px #666;
+    color: white;
+    font-size: 2em;
+}
+
+.examples-nav li a:hover {
+	background-color: blue;
+}
+
 input[type="text"] {
 	width: 100px;
 	border: 1px solid red;

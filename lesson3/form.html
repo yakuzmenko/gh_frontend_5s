@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Form Example</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<form action="#" method="GET">
+		<div>
+			<input type="hidden" name="token" value="qwerty1243535">
+		</div>
+
+		<fieldset>
+			<legend>Fieldset #1</legend>
+			<ul>
+				<li>
+					<label for="f_name">First Name</label>
+					<input type="text" name="f_name" id="f_name">
+				</li>	
+				<li>
+					<label for="l_name">Last Name</label>
+					<input type="text" name="l_name" id="l_name">
+				</li>
+				<li>
+					<label>Password</label>
+					<input type="password" name="password">
+				</li>
+			</ul>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fieldset #2</legend>
+			<ul>
+				<li>
+					<label for="about">About yourself</label>
+					<textarea name="about" id="about" rows="10" cols="45"></textarea>
+				</li>
+				<li>
+					<h3>Choose one of existing:</h3>
+					<ul>
+						<li>
+							<input type="radio" name="radio" value="1">
+							<label>Value #1</label>
+						</li>
+						<li>
+							<input type="radio" name="radio" value="2">
+							<label>Value #2</label>
+						</li>
+						<li>
+							<input type="radio" name="radio" value="3" disabled="disabled">
+							<label>Value #3</label>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<label>Checkboxes</label>
+					<ul>
+						<li>
+							<label>
+							<input type="checkbox" name="doing_on_weekends[]" value="1">
+							CK1</label>
+						</li>
+						<li>
+							<label>
+							<input type="checkbox" name="doing_on_weekends[]" value="2">
+							CK2</label>
+						</li>
+					</ul>	
+				</li>
+			</ul>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fieldset #3</legend>
+			<ul>
+				<li>
+					<label for="your_age">Your age</label>
+					<select name="your_age" id="your_age">
+						<option value="1-10">1-10 years</option>
+						<option value="10-20">10-20 years</option>
+						<option value="20-30">20-30 years</option>
+					</select>
+				</li>
+				<li>
+					<label>Select multiple</label>
+					<select name="position[]" size="3" multiple="multiple">
+						<option value="1">first</option>
+						<option value="2" selected="selected">second</option>
+						<option value="3">third</option>
+					</select>
+				</li>
+			</ul>
+		</fieldset>
+
+		<div>	
+			<button type="submit">Send</button>
+			<input type="reset" value="Reset">
+		</div>
+
+	</form>
+
+</body>
+</html>
