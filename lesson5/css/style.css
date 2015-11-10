@@ -1,0 +1,67 @@
+body {
+    background-color: #E5EAEB;
+}
+
+/*--------------------- header area --------------------*/
+
+.wrapper {
+    width: 760px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    padding: 30px 0;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	overflow: hidden;
+    float: right;
+    margin-top: 25px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: grey;
+    text-transform: lowercase;
+}
+
+.nav li a.active,
+.nav li a:hover {
+    color: #2B87C6;
+}
+
+/*--------------------- main area --------------------*/
+
+.main {
+    padding: 20px 0;
+}
+
+.sidebar {
+	float: left;
+	width: 180px;
+	margin-right: 20px;
+}
+
+.content {
+	overflow: hidden;
+}
+
+/*--------------------- footer area --------------------*/
+
+.footer {
+    height: 40px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
