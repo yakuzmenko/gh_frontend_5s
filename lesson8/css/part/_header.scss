@@ -1,0 +1,57 @@
+header {
+	background-color: #edeff1;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+
+	.container {
+		padding: 43px 0;
+	} 
+
+	.logo {
+		float: right;
+
+		a {
+			color: #31353e;
+			font-size: 3.6rem;
+			font-weight: 700;
+			line-height: 3.6rem;
+			display: block;
+		}
+
+		span {
+			color: #dd4b2b;
+			font-size: 1.6rem;
+			line-height: 1.8rem;
+			display: block;
+		}
+	}
+
+	nav {
+		overflow: hidden;
+		text-align: right;
+	}
+
+	ul {
+		font-size: 1.8rem;
+		line-height: 2.4rem;
+		color: #31353e;
+		padding: 18px 0;
+
+		li {
+			display: inline-block;
+
+			a {
+				color: #31353e;
+			 	padding: 15px;
+			 	border-radius: 25px;
+			}
+
+			&.active,
+		 	a:hover {
+		 		background-color: #dd4b2b;
+				color: white;
+				transition: .5s;
+		 	}
+		}
+	}
+}
