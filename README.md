@@ -5,3 +5,4 @@
 3. Lesson #5 - Basic Template Structure
 4. Lesson #6 - Minimal Personal template & SEO basics
 5. Lesson #7 - M2M template
+6. Lesson #8 - Panakeia template
