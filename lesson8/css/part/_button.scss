@@ -1,0 +1,35 @@
+.button {
+	@include gradient(#014899, #A5C9E5);
+	font-family: Arial;
+	font-size: 2rem;
+	font-weight: 400;
+	color: white;
+	width: 15%;
+	padding: 20px;
+	float: left;
+	margin: 2.5%;
+
+	header & {
+		font-size: 3rem;
+	}
+
+	.news & {
+		font-size: 0.5rem;
+	}	
+}
+
+.button-alert {
+	@extend .button;
+	color: blue;		
+}	
+
+.button-success {
+	@extend .button;
+	@include gradient(green, yellow);
+	// color: green;		
+}
+
+.button-warning {
+	@extend .button;
+	color: yellow;		
+}

@@ -1,0 +1,186 @@
+body {
+	font-size: 10px;
+}
+
+.header,
+.main,
+.footer {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/*--------------------- Header --------------------*/ 
+
+.logo {
+    padding: 20px 0 10px;
+    float: left;
+	padding: 27px 0 0 19px;
+	font: 2em/1.5 Myriad Pro, 'New Century Schoolbook', serif;
+}
+
+/*--------------------- Content area --------------------*/
+.content-section {
+	background-color: #F4F4F4;
+ }
+
+/*--------------------- Sidebar--------------------*/ 	
+.sidebar-left {
+	float: left;
+	width: 120px;
+	border: 1px solid #E7E7E7;
+}
+  li p {
+	 font:   11px/1.5 Tahoma, 'New Century Schoolbook', serif;
+	 color: #555555;
+     padding: 20px 0 10px 0 	 ;
+  }
+  li img {
+	  padding: 10px 0 10px 0  ;
+  }
+  li {
+	 font:   11px/2 Tahoma, 'New Century Schoolbook', serif;      
+  }
+  li div  {
+	  border: 1px solid #F4F4F4;
+	  font: bold  11px/1.5 Tahoma, 'New Century Schoolbook', serif;
+	  margin: 12px 0  0  0  ;
+  }
+  span {
+	  float: right;
+  }
+  .blok {
+	  border: 1px solid #F4F4F4;
+	  background: #E7E7E7;
+	  padding: 0 0 0  3px  ;
+  }
+  input {
+	  width: 116px;
+	  border: 1px solid #F4F4F4;
+	  background:#FFFFFF;
+  }
+
+
+.sidebar-right {
+	float: right;
+	width: 300px;
+}
+  
+  .logo111 li {
+    float: left;
+    padding: 0 2px;
+	
+  }
+  .logo111 div {
+	 
+	  width: 68px;
+	  margin: 30px 20px 22px 0;
+	  font:  bold 11px/1.5 Tahoma, 'New Century Schoolbook', serif;  
+	  color: black;
+  }
+  .logo111 span   {
+	  font:   11px Tahoma, 'New Century Schoolbook', serif;  
+	  color: #555555;
+	  float: left;
+  }
+  .text-left  span , .text-right span { 
+      float: left;
+	  font:   11px Tahoma, 'New Century Schoolbook', serif;  
+	  color: #555555;
+  }
+  .text-left {
+	   border: 1px solid #F4F4F4;
+	  width: 164px;
+	  float: left;
+	  font:  bold 11px Tahoma, 'New Century Schoolbook', serif;  
+	  color: black;
+	  
+  }
+  .text-right {
+	  border: 1px solid #F4F4F4;
+	  width: 124px;
+	  float: right;
+	  font:  bold 11px Tahoma, 'New Century Schoolbook', serif;  
+	  color: black;
+	  
+  }
+  
+ /*--------------------- content --------------------*/ 
+.content{
+	overflow: hidden;
+	float: left;
+	width: 500px;
+	margin: 0 10px; 
+}
+ .content  p {
+	  font:   11px/1.5 Tahoma, 'New Century Schoolbook', serif;
+	  padding: 20px 0 10px 0; 
+  }
+  .content h1 {
+	  font: 24px/1.5 Myriad Pro, 'New Century Schoolbook', serif;
+	  padding: 0 0 5px 0; 
+  }
+  .content img {}
+  .article p {
+	  font:   12px/1.5 Tahoma, 'New Century Schoolbook', serif;
+	  padding: 10px 0 5px 0;
+  }
+  .categorii-list {
+	  padding: 30px 0 5px 0;
+  }
+  .right {
+	  float: right;
+	  padding: 30px 0 10px 0; 
+   
+  }
+  .categorii-title {
+	  font: 18px Myriad Pro, 'New Century Schoolbook', serif;
+	  
+  }
+  .categorii-data {
+	  border-top: 1px solid #D6D6D6;
+  }
+  .page  {
+	  float: left;
+	  width: 80px;
+	  padding:50px 0 50px 0;
+	  font:   11px Tahoma, 'New Century Schoolbook', serif;  
+	   color: #555555;
+  }
+  .page-nomer li {
+      float: left;
+	  width: 20px;
+	  margin:50px 0 50px 0;
+	  font:   11px Tahoma, 'New Century Schoolbook', serif;  
+	   color: #555555;
+  }
+   /*.one{
+	   border: 1px solid red;
+	   background: red;
+	      
+   }*/
+  
+.social a i {
+	font-size: 24px;
+	color: gray;
+}
+
+.social .twitter:hover i {
+	color: blue;
+}
+
+
+ 
+ /*--------------------- footer area --------------------*/
+
+ .footer {
+    height: 40px;
+    
+    padding-top: 10px;
+	background: #FFFFFF;
+}
+  .copyright  {
+	   font:   11px Tahoma, 'New Century Schoolbook', serif;  
+	   color: #555555;
+  }

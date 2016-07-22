@@ -1,0 +1,7 @@
+@media screen and (max-width: 480px) {
+	#people .xs-col-6,
+	#subscription .xs-col-6 {
+		width: 100%;
+		float: none;
+	}
+}
